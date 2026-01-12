@@ -1,4 +1,3 @@
-// Mobile menu toggle
 const toggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".nav-links");
 
@@ -9,7 +8,6 @@ if (toggle && links) {
   });
 }
 
-// Mini reflection save (localStorage)
 const input = document.getElementById("prompt");
 const saveBtn = document.getElementById("saveBtn");
 const savedOut = document.getElementById("savedOut");
@@ -36,6 +34,5 @@ if (saveBtn && input) {
   });
 }
 
-// Footer year
 const year = document.getElementById("year");
 if (year) year.textContent = String(new Date().getFullYear());
